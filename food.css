@@ -1,0 +1,75 @@
+*
+{
+margin: 1px; 
+}
+
+body
+{
+background-color: white;
+}
+
+h1
+{
+background-color: green;
+padding-left: 170px;
+max-width: auto ;
+height: 70px;
+}	
+
+.content
+{
+background-color: pink;
+margin: 100px;	
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-gap: 20px;
+
+
+
+}
+
+.bloc
+{
+
+padding-top: 50px;
+grid-template-columns: repeat(2, 1fr);
+grid-gap: 90px;
+text-align: justify; 
+}
+
+.container
+{
+margin: 100px;	
+width: 500px;
+max-width: 200px;
+padding-left: 20px;
+padding-right: 20px;
+border: solid;
+max-height: 390px;
+padding-top: 0px;
+text-align: justify; 
+}
+
+h2
+{
+margin: auto;
+padding-bottom: 190px;
+padding-top: 0px;
+
+}
+
+.nom
+{
+margin: auto;	
+}
+
+.fin
+{
+padding-left: 190px;
+background-color: green;
+}	
+
+footer
+{
+background-color: green;
+}	
