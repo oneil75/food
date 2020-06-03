@@ -1,0 +1,102 @@
+*
+{ margin-top: 50px;
+  margin-bottom: 30px;
+  margin: 20px;
+
+}
+
+h1
+{ position: relative;
+ overflow: hidden;
+ text-align: center;
+ color: green;
+ font-family: cursive; 
+}
+
+ul
+{list-style: none;
+}
+
+h3
+{position: relative;
+ overflow: hidden;
+ text-align: center;
+}
+
+h3:before, h3:after{
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 4px;
+    content: '\a0';
+    background-color: green;
+}
+
+h3:before 
+{
+    margin-left: -50%;
+    text-align: 
+}
+
+.prix
+{text-align: right; 
+}
+
+.tarif
+{text-align: right;
+}
+
+.total
+{text-align: right;
+}
+
+h4
+{position: relative;
+ overflow: hidden;
+ text-align: center;
+}
+
+h4:before, h4:after{
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 4px;
+    content: '\a0';
+    background-color: #81C784;
+}
+
+h4:before 
+{
+    margin-left: -50%;
+    text-align: 
+}
+
+h4
+{position: relative;
+ overflow: hidden;
+ text-align: center;
+}
+
+.terminer
+{position: relative;
+ overflow: hidden;
+ text-align: center;
+}
+
+.terminer:before, .terminer:after{
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 4px;
+    content: '\a0';
+    background-color: #0091EA;
+}
+
+.terminer:before 
+{
+    margin-left: -50%;
+    text-align: 
+}

@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 0;
+ 
+  text-decoration: none;
+  text-align: center;
+  
+}
+
+container
+{  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  margin: 60px;
+  transform: scale(1);
+  opacity: 1;
+  transition: all 1s;
+  background-color:  #fff5fe;
+  padding: 80px;
+   
+} 
+
+aside
+{
+
+}
+
+ul
+{list-style: none;
+}
+
+.menu1
+{
+  color: 
+}
+
+
+li
+{list-style: none;
+}
+
+    
+h1 {
+    color: #fdcb46;
+    font-family: "Pangolin";
+}
+
+h2 {
+    color: purple;
+    font-family: "Pangolin";
+}
+
+
+header {
+  background-color: #009688;
+  height: 70px;
+  display: flex;
+  /* margin: 0; */
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+
+ .note
+{
+margin: auto;
+color: red;
+}
+
+h3
+{position: relative;
+ overflow: hidden;
+ text-align: center;
+ color: orange;
+ 
+}
+
+h3:before, h3:after{
+    position: absolute;
+    top: 50%;
+    overflow: hidden;
+    width: 50%;
+    height: 4px;
+    content: '\a0';
+    background-color: black;
+
+}
+
+h3:before {
+    margin-left: -50%;
+    
+    
+}
+
+  
+
+.final
+
+{ 
+
+align-items: center;
+color: black;
+
+} 
+
+
+footer 
+{
+   background-color: #009688;
+  height: 70px;
+  display: flex;
+  color: black;
+  /* margin: 0; */
+  
+  align-items: center;
+  justify-content: space-between;
+  padding: 5%;
+  color:#fdcb46;
+
+}
+
+
+.dish {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,75 +1,122 @@
-*
+body 
 {
-margin: 1px; 
+  margin: 0;
+  background-color: white;
+  text-align: center;
 }
 
-body
-{
-background-color: white;
+header {
+  background-color: #009688;
+  height: 70px;
+  display: flex;
+  /* margin: 0; */
+  justify-content: center;
+  align-items: center;
 }
 
-h1
+.lne 
 {
-background-color: green;
-padding-left: 170px;
-max-width: auto ;
-height: 70px;
-}	
-
-.content
-{
-background-color: pink;
-margin: 100px;	
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-grid-gap: 20px;
-
-
-
+  
+  background-color: #fcdfdb;
+  border-color: #fff5fe;
+   
 }
 
-.bloc
-{
-
-padding-top: 50px;
-grid-template-columns: repeat(2, 1fr);
-grid-gap: 90px;
-text-align: justify; 
+.lcf
+{ font-family: "Croissant One";
+  background-color: #fff5fe;
+  border-color: #fff5fe;
+  color: #c77412;
 }
 
-.container
-{
-margin: 100px;	
-width: 500px;
-max-width: 200px;
-padding-left: 20px;
-padding-right: 20px;
-border: solid;
-max-height: 390px;
-padding-top: 0px;
-text-align: justify; 
+.ldp
+{ font-family: "Dancing Script";
+  color: blue;
+  background-color: #edefef;
+  border-color: #fff5fe;
 }
 
-h2
+.lpg
 {
+  font-family: "Kaushan Script";
+  background-color: #fdfffd;
+  border-color: #fff5fe;
+  color :green;
+}
+
+a
+{
+  text-decoration: none;
+  color: #c77412;
+} 
+
+i
+{
+color:#fdcb46;
+}
+
+
+
+container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 600px;
+  margin: auto;
+}
+
+article {
+  width: 210px;
+  border: solid;
+  height: 297px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  transition: transform .5s, opacity .5s;
+  font-family: cursive;
+  
+}
+
+article:hover {
+  transform: scale(1.2);
+  opacity: .7;
+}
+
+footer {
+  background-color: #009688;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  border: 0;
+  bottom: 0;
+  height: 3rem;
+  width: 100%;
+}
+
+h1 {
+    color: #fdcb46;
+    font-family: "Pangolin";
+}
+
+.soon 
+{  
 margin: auto;
-padding-bottom: 190px;
-padding-top: 0px;
-
+background-color: #009688;
+height: 35px;
+border-radius: 10px;
+width: 350px;
+border-color: #009688;
 }
 
-.nom
+h3
 {
-margin: auto;	
+color:#fdcb46;
 }
 
-.fin
-{
-padding-left: 190px;
-background-color: green;
-}	
 
-footer
-{
-background-color: green;
-}	
+
+
+
