@@ -1,15 +1,14 @@
-* {
-  box-sizing: border-box;
-  margin-bottom: 20px;
-  padding: 0;
- 
-  text-decoration: none;
+
+body
+{
+  margin: 0;
+  background-color: white;
   text-align: center;
-  
 }
 
 container
-{  display: flex;
+{
+  display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100%;
@@ -19,101 +18,124 @@ container
   transition: all 1s;
   background-color: #fcdfdb;
   padding: 80px;
-   
-} 
+}
 
-aside
+a
 {
-
+  text-decoration: none;
+  color: #c77412;
 }
 
 ul
-{list-style: none;
+{
+  list-style: none;
 }
-
 
 li
-{list-style: none;
+{
+  list-style: none;
 }
 
-    
-h1 {
-    color: #fdcb46;
-    font-family: "Pangolin";
+h1
+{
+  color: #fdcb46;
+  font-family: "Pangolin";
 }
 
-header {
+header
+{
   background-color: #009688;
   height: 70px;
   display: flex;
-  /* margin: 0; */
+  /* margin: 0;
+  */
   justify-content: center;
   align-items: center;
-
 }
 
-
-
-
- .note
+.top
 {
-margin: auto;
-color: red;
+  font-size: 170%;
+  font-family: "Kaushan Script";
+}
+
+.note
+{
+  margin: auto;
+  color: red;
+  font-size: 255%;
 }
 
 h3
-{position: relative;
- overflow: hidden;
- text-align: center;
- 
+{
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  font-family: "Kaushan Script";
 }
 
-h3:before, h3:after{
-    position: absolute;
-    top: 50%;
-    overflow: hidden;
-    width: 50%;
-    height: 4px;
-    content: '\a0';
-    background-color: black;
-
+h3:before, h3:after
+{
+  position: absolute;
+  top: 50%;
+  overflow: hidden;
+  width: 50%;
+  height: 4px;
+  content: '\a0';
+  background-color: black;
+  margin-left: 40px;
 }
 
-h3:before {
-    margin-left: -50%;
-    
-    
+h3:before
+{
+  margin-left: -55%;
 }
-
-  
 
 .final
-
-{ 
-
-align-items: center;
-color: black;
-
-} 
-
-
-footer 
 {
-   background-color: #009688;
-  height: 70px;
+  text-align: center;
   display: flex;
-  color: black;
-  /* margin: 0; */
-  
-  align-items: center;
   justify-content: space-between;
-  padding: 5%;
-  color:#fdcb46;
-
+  align-items: center;
+  margin: auto;
 }
 
+.finish
+{
+  color: black;
+  font-family: "Kaushan Script";
+  font-size: 30px;
+}
 
-.dish {
+.music
+{
+  color: red;
+  font-size: 30px;
+}
+
+h5
+{
+  color:#fdcb46;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+footer
+{
+  background-color: #009688;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  border: 0;
+  bottom: 0;
+  height: 3rem;
+  width: 100%;
+}
+
+.dish
+{
+  font-family: "Kaushan Script";
   display: flex;
   justify-content: space-between;
 }

@@ -1,39 +1,41 @@
-body 
+body
 {
   margin: 0;
   background-color: white;
   text-align: center;
 }
 
-header {
+header
+{
   background-color: #009688;
   height: 70px;
   display: flex;
-  /* margin: 0; */
+  /* margin: 0;
+  */
   justify-content: center;
   align-items: center;
 }
 
-.lne 
+.lne
 {
-  
   background-color: #fcdfdb;
   border-color: #fff5fe;
-   
 }
 
 .lcf
-{ font-family: "Croissant One";
+{
+  font-family: "Croissant One";
   background-color: #fff5fe;
   border-color: #fff5fe;
-  color: #c77412;
+  color: #FF5722;
 }
 
 .ldp
-{ font-family: "Dancing Script";
-  color: blue;
+{
+  font-family: "Dancing Script";
   background-color: #edefef;
   border-color: #fff5fe;
+  color: #2196f3;
 }
 
 .lpg
@@ -41,23 +43,22 @@ header {
   font-family: "Kaushan Script";
   background-color: #fdfffd;
   border-color: #fff5fe;
-  color :green;
+  color: green;
 }
 
 a
 {
   text-decoration: none;
   color: #c77412;
-} 
+}
 
 i
 {
-color:#fdcb46;
+  color: #FF5722;
 }
 
-
-
-container {
+container
+{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -65,7 +66,29 @@ container {
   margin: auto;
 }
 
-article {
+.menu1
+{
+  color: black;
+}
+
+.menu2
+{
+  color: #fdcb46;
+}
+
+.menu3
+{
+  background: linear-gradient(to right,#f32170 , #ffeb07)  -webkit-text-fill-color:transparent;
+  color: #2196f3;
+}
+
+.menu4
+{
+  color: green;
+}
+
+article
+{
   width: 210px;
   border: solid;
   height: 297px;
@@ -76,15 +99,16 @@ article {
   margin: 2rem;
   transition: transform .5s, opacity .5s;
   font-family: cursive;
-  
 }
 
-article:hover {
+article:hover
+{
   transform: scale(1.2);
   opacity: .7;
 }
 
-footer {
+footer
+{
   background-color: #009688;
   display: flex;
   justify-content: space-around;
@@ -96,27 +120,23 @@ footer {
   width: 100%;
 }
 
-h1 {
-    color: #fdcb46;
-    font-family: "Pangolin";
-}
-
-.soon 
-{  
-margin: auto;
-background-color: #009688;
-height: 35px;
-border-radius: 10px;
-width: 350px;
-border-color: #009688;
+h1
+{
+  color: #fdcb46;
+  font-family: "Pangolin";
 }
 
 h3
 {
-color:#fdcb46;
+  color:#fdcb46;
 }
 
-
-
-
-
+.soon
+{
+  margin: auto;
+  background-color: #009688;
+  height: 35px;
+  border-radius: 10px;
+  width: 350px;
+  border-color: #009688;
+}

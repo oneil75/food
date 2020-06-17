@@ -1,15 +1,13 @@
-* {
-  box-sizing: border-box;
-  margin-bottom: 20px;
-  padding: 0;
- 
-  text-decoration: none;
+body
+{
+  margin: 0;
+  background-color: white;
   text-align: center;
-  
 }
 
 container
-{  display: flex;
+{
+  display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100%;
@@ -19,113 +17,136 @@ container
   transition: all 1s;
   background-color:  #fff5fe;
   padding: 80px;
-   
-} 
+}
 
-aside
+a
 {
-
+  text-decoration: none;
+  color: #c77412;
 }
 
 ul
-{list-style: none;
+{
+  list-style: none;
 }
 
 .menu1
 {
-  color: 
+  color: orange;
+  font-family: "Pangolin";
 }
 
+.menu2
+{
+  color: #9e4a9d;
+}
+
+.menu3
+{
+  color: #3d3585;
+}
 
 li
-{list-style: none;
+{
+  list-style: none;
 }
 
-    
-h1 {
-    color: #fdcb46;
-    font-family: "Pangolin";
+h1
+{
+  color: #fdcb46;
+  font-family: "Pangolin";
+}
+
+h2
+{
+  color: background: #f4a930;
+background: -moz-linear-gradient(left, #f4a930 0%, #474fe0 100%);
+background: -webkit-linear-gradient(left, #f4a930 0%,#474fe0 100%);
+background: linear-gradient(to right, #f4a930 0%,#474fe0 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4a930', endColorstr='#474fe0',GradientType=1 );
+  font-family: "Croissant One";
+  margin-bottom: 50px;
+
 }
 
 h2 {
-    color: purple;
-    font-family: "Pangolin";
+   
+   taille de police : 10px;
+  fond : -webkit-gradient-linéaire (#eee, # 333);
+  -webkit-background-clip : texte;
+  -webkit-text-fill-color : transparent;
+
 }
 
-
-header {
+header
+{
   background-color: #009688;
   height: 70px;
   display: flex;
-  /* margin: 0; */
+  /* margin: 0;
+  */
   justify-content: center;
   align-items: center;
-
 }
 
-
-
-
- .note
+.note
 {
-margin: auto;
-color: red;
+  color: red;
 }
 
 h3
-{position: relative;
- overflow: hidden;
- text-align: center;
- color: orange;
- 
+{
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  font-family: "PT Serif";
 }
 
-h3:before, h3:after{
-    position: absolute;
-    top: 50%;
-    overflow: hidden;
-    width: 50%;
-    height: 4px;
-    content: '\a0';
-    background-color: black;
-
+h3:before, h3:after
+{
+  position: absolute;
+  top: 50%;
+  overflow: hidden;
+  width: 50%;
+  height: 4px;
+  content: '\a0';
+  background-color: black;
+  margin-left: 40px;
 }
 
-h3:before {
-    margin-left: -50%;
-    
-    
+h3:before
+{
+  margin-left: -55%;
 }
-
-  
 
 .final
-
-{ 
-
-align-items: center;
-color: black;
-
-} 
-
-
-footer 
 {
-   background-color: #009688;
-  height: 70px;
-  display: flex;
-  color: black;
-  /* margin: 0; */
-  
   align-items: center;
-  justify-content: space-between;
-  padding: 5%;
-  color:#fdcb46;
-
+  color: black;
 }
 
+h5
+{
+  color:#fdcb46;
+  text-decoration: none;
+  font-size: 20px;
+}
 
-.dish {
+footer
+{
+  background-color: #009688;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  border: 0;
+  bottom: 0;
+  height: 3rem;
+  width: 100%;
+}
+
+.dish
+{
   display: flex;
   justify-content: space-between;
 }
