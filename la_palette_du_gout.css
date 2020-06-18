@@ -5,6 +5,19 @@ body
   text-align: center;
 }
 
+container
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  margin: 60px;
+  transform: scale(1);
+  opacity: 1;
+  transition: all 1s;
+  padding: 80px;
+}
+
 header
 {
   background-color: #009688;
@@ -18,10 +31,15 @@ header
 
 .note
 {
-  text-align: center;
-  color: green;
-  font-size: 60px;
+  font-size: 50px;
   font-family: "Kaushan Script";
+  background: #287c15;
+  background: -moz-linear-gradient(left,  #287c15 0%, #abdc28 100%);
+  background: -webkit-linear-gradient(left,  #287c15 0%,#abdc28 100%);
+  background: linear-gradient(to right,  #287c15 0%,#abdc28 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#287c15', endColorstr='#abdc28',GradientType=1 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 h1

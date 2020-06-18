@@ -16,12 +16,82 @@ header
   align-items: center;
 }
 
+container
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  margin: 60px;
+  transform: scale(1);
+  opacity: 1;
+  transition: all 1s;
+  background-color:  #fff5fe;
+  padding: 80px;
+}
+
+.traits
+{
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  font-family: "Dancing Script";
+}
+
+.traits:before, .traits:after
+{
+  position: absolute;
+  top: 50%;
+  overflow: hidden;
+  width: 50%;
+  height: 4px;
+  content: '\a0';
+  background-color: #027CC7 ;
+  margin-left: 40px;
+}
+
+.traits:before
+{
+  margin-left: -55%;
+}
+
+.trait
+{
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  font-family: "Dancing Script";
+}
+
+.trait:before, .trait:after
+{
+  position: absolute;
+  top: 50%;
+  overflow: hidden;
+  width: 50%;
+  height: 4px;
+  content: '\a0';
+  background-color: #52BDFF;
+  margin-left: 40px;
+}
+
+.trait:before
+{
+  margin-left: -55%;
+}
+
 .note
 {
-  text-align: center;
-  color: #0905ff;
-  font-size: 60px;
   font-family: "Dancing Script";
+  background: #392de2;
+  background: -moz-linear-gradient(left, #392de2 0%, #7db9e8 100%);
+  background: -webkit-linear-gradient(left, #392de2 0%,#7db9e8 100%);
+  background: linear-gradient(to right, #392de2 0%,#7db9e8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#392de2', endColorstr='#7db9e8',GradientType=1 );
+  font-size: 40px;
+  background-color: #fff5fe;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 h1
@@ -54,7 +124,6 @@ h3
   overflow: hidden;
   text-align: center;
   font-family: "Dancing Script";
-
 }
 
 h3:before, h3:after
@@ -67,13 +136,11 @@ h3:before, h3:after
   content: '\a0';
   background-color: #0905ff;
   margin-left: 40px;
-  
 }
 
 h3:before
 {
   margin-left: -55%;
-  
 }
 
 .prix

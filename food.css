@@ -1,3 +1,4 @@
+
 body
 {
   margin: 0;
@@ -20,36 +21,36 @@ header
 {
   background-color: #fcdfdb;
   border-color: #fff5fe;
+  font-family: "Kaushan Script";
 }
 
 .lcf
 {
   font-family: "Croissant One";
-  background-color: #fff5fe;
+  color: #BD5914;
   border-color: #fff5fe;
-  color: #FF5722;
+  background-color:  #fff5fe;
 }
 
 .ldp
 {
   font-family: "Dancing Script";
-  background-color: #edefef;
-  border-color: #fff5fe;
-  color: #2196f3;
+  background-color: #FCFCFC  ;
+  border-color: #FCFCFC;
+  color: #027CC7 ;
 }
 
 .lpg
 {
   font-family: "Kaushan Script";
   background-color: #fdfffd;
-  border-color: #fff5fe;
+  border-color: #fdfffd;
   color: green;
 }
 
 a
 {
   text-decoration: none;
-  color: #c77412;
 }
 
 i
@@ -73,13 +74,12 @@ container
 
 .menu2
 {
-  color: #fdcb46;
+  color: #BD5914;
 }
 
 .menu3
 {
-  background: linear-gradient(to right,#f32170 , #ffeb07)  -webkit-text-fill-color:transparent;
-  color: #2196f3;
+  color: #0790E4;
 }
 
 .menu4
