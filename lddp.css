@@ -97,6 +97,8 @@ font-size: 40px;
 background-color: #fff5fe;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
+width: fit-content;
+margin: auto;
 }
 
 h1
@@ -236,7 +238,7 @@ height: 3rem;
 width: 100%;
 }
 
-.btns__btn
+.btns__btn:hover
 {
 animation: shake 1s;
 animation-iteration-count: infinite;

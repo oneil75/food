@@ -10,18 +10,26 @@ body
   text-align: center;
 }
 
+.start
+{
+ padding-top: 50px;
+ font-size: 20px; 
+ font-weight: bold;
+}
+
 main
 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100%;
+  height: 80%;
   margin: 60px;
   transform: scale(1);
   opacity: 1;
   transition: all 1s;
   background-color: #fcdfdb;
-  padding: 80px;
+  padding: 70px;
+  
 }
 
 a
@@ -63,11 +71,18 @@ header
   font-family: "Kaushan Script";
 }
 
-.note
-{
-  margin: auto;
-  color: red;
-  font-size: 255%;
+i
+{ 
+font-size: 35px;
+background: #e50000; /* Old browsers */
+background: -moz-linear-gradient(left,  #e50000 0%, #ff7400 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #e50000 0%,#ff7400 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #e50000 0%,#ff7400 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e50000', endColorstr='#ff7400',GradientType=1 ); /* IE6-9 */
+ -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+
+  
 }
 
 h3
@@ -109,12 +124,12 @@ h3:before
   color: black;
   font-family: "Kaushan Script";
   font-size: 30px;
+  
 }
 
 .music
 {
-  color: red;
-  font-size: 30px;
+
 }
 
 h5
@@ -144,7 +159,7 @@ footer
   justify-content: space-between;
 }
 
-.btns__btn
+.btns__btn:hover 
 {
   animation: shake 1s;
   animation-iteration-count: infinite;

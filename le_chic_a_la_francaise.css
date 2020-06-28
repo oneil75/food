@@ -74,6 +74,9 @@ font-family: "Croissant One";
 background-color: #fff5fe;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
+width: fit-content;
+padding-bottom: 85px;
+margin: auto;
 }
 
 header
@@ -95,9 +98,9 @@ color: red;
 .underline
 {
 font-size: 120%;
-padding-top: 5%;
 font-size: 110%;
 margin-top: -2%;
+
 }
 
 h3
@@ -116,7 +119,7 @@ overflow: hidden;
 width: 50%;
 height: 4px;
 content: '\a0';
-background-color: black;
+background-color: #9e4a9d;
 margin-left: 40px;
 }
 
@@ -157,7 +160,7 @@ display: flex;
 justify-content: space-between;
 }
 
-.btns__btn
+.btns__btn:hover
 {
 animation: shake 1s;
 animation-iteration-count: infinite;
