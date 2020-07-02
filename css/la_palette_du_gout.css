@@ -1,0 +1,139 @@
+@import url("allpages.css");
+/*@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Devonshire&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;562;600;700&display=swap");*/
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+
+main
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  margin: 60px;
+  transform: scale(1);
+  opacity: 1;
+  transition: all 1s;
+  padding: 80px;
+}
+
+.lddp_degrade{  
+  font-size: 50px;
+}
+
+a
+{  color: #c77412;
+}
+
+.dish
+{
+  display: flex;
+  justify-content: space-between;
+  font-family: "Kaushan Script";
+}
+
+ul
+{
+  list-style: none;
+}
+
+h3
+{
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  font-family: "Kaushan Script";
+}
+
+h3:before, h3:after
+{
+  position: absolute;
+  top: 50%;
+  overflow: hidden;
+  width: 50%;
+  height: 4px;
+  content: '\a0';
+  background-color: green;
+  margin-left: 40px;
+}
+
+h3:before
+{
+  margin-left: -55%;
+}
+
+.prix
+{
+  text-align: right;
+}
+
+.tarif
+{
+  text-align: right;
+}
+
+.total
+{
+  text-align: right;
+}
+
+h4
+{
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+h4:before, h4:after
+{
+  position: absolute;
+  top: 51%;
+  overflow: hidden;
+  width: 50%;
+  height: 4px;
+  content: '\a0';
+  background-color: #81C784;
+}
+
+h4:before
+{
+  margin-left: -50%;
+ }
+
+h4
+{
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.terminer
+{
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.terminer:before, .terminer:after
+{
+  position: absolute;
+  top: 51%;
+  overflow: hidden;
+  width: 50%;
+  height: 4px;
+  content: '\a0';
+  background-color: #0091EA;
+}
+
+.terminer:before
+{
+  margin-left: -50%;
+ }
+
+h5
+{
+  color:#fdcb46;
+  text-decoration: none;
+  font-size: 20px;
+}

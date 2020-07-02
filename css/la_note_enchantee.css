@@ -1,0 +1,105 @@
+@import url("allpages.css");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+
+main
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  margin: 60px;
+  transform: scale(1);
+  opacity: 1;
+  transition: all 1s;
+  background-color: #fcdfdb;
+  padding: 80px;
+}
+
+a
+{
+  color: #c77412;
+}
+
+ul
+{
+  list-style: none;
+}
+
+li
+{
+  list-style: none;
+}
+
+.top
+{
+  font-size: 170%;
+  font-family: "Kaushan Script";
+}
+
+.note
+{
+  margin: auto;
+  color: red;
+  font-size: 255%;
+}
+
+h3
+{
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  font-family: "Kaushan Script";
+}
+
+h3:before, h3:after
+{
+  position: absolute;
+  top: 50%;
+  overflow: hidden;
+  width: 50%;
+  height: 4px;
+  content: '\a0';
+  background-color: black;
+  margin-left: 5%;
+}
+
+h3:before
+{
+  margin-left: -55%;
+}
+
+.final
+{
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.finish
+{
+  color: black;
+  font-family: "Kaushan Script";
+  font-size: 30px;
+}
+
+.music
+{
+  color: red;
+  font-size: 30px;
+}
+
+h5
+{
+  color:#fdcb46;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.dish
+{
+  font-family: "Kaushan Script";
+  display: flex;
+  justify-content: space-between;
+}
