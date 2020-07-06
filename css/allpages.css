@@ -86,7 +86,14 @@ footer
   width: 100%;
 }
 
+h3:after
+{
+  width: 50%;height: 2px;content: '\a0';background-color: #cec0cd;display: block;width: 0;position: relative;left: 30%;transition: width 1s;}
 
+
+h3:hover:after{
+ width: 40%;
+}
 .btns__btn:hover
 {
   animation: shake 1s;

@@ -70,14 +70,7 @@ h3
   font-family: "PT Serif";
 }
 
-h3:after
-{
-  width: 50%;height: 2px;content: '\a0';background-color: #cec0cd;display: block;width: 0;position: relative;left: 30%;transition: width 1s;}
 
-
-h3:hover:after{
- width: 40%;
-}
 
 h3 span {
     letter-spacing: -2px;
