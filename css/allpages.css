@@ -94,11 +94,21 @@ h3:after
 h3:hover:after{
  width: 40%;
 }
+
+
+.btns__btn a
+{
+  color:#fdcb46;
+  text-decoration: none;
+  font-size: 20px;
+}
 .btns__btn:hover
 {
   animation: shake 1s;
   animation-iteration-count: infinite;
 }
+
+
 
 @keyframes shake
 {
