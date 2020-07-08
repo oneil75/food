@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Croissant+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;562;600;700&display=swap");*/
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 main
 {
   display: flex;
@@ -16,6 +16,13 @@ main
   opacity: 1;
   transition: all 1s;
   padding: 80px;
+  box-shadow: 1px 1px 10px 0px rgba(204, 204, 204, 0.9);
+}
+.first
+{   text-align: center;
+ padding-top: 30px;
+ font-size :20px;
+ font-family: "Montserrat"
 }
 
 .lddp_degrade{  
@@ -156,4 +163,5 @@ margin-left: 90px;
 {
 margin-left: -50%;
 }
+
 

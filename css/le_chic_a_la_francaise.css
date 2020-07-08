@@ -1,5 +1,6 @@
 @import url("allpages.css");
 @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 /* ajouter pt sherif */
 
 main
@@ -14,7 +15,15 @@ main
   transition: all 1s;
   background-color:  #fff5fe;
   padding: 80px;
+  box-shadow: 1px 1px 10px 0px rgba(204, 204, 204, 0.9);
 }
+
+.first
+{
+  text-align: center;
+  padding-top: 30px;
+  font-size :20px;
+font-family: "Montserrat"}
 
 a
 {
@@ -45,16 +54,23 @@ ul
 li
 {
   list-style: none;
-} 
+}
 
-h2{
- font-size: 30px;
+h2
+{
+  font-size: 30px;
 }
 
 a.underline
-{/* display: block; *//* width: fit-content; */}
+{
+  /* display: block;
+  */
+  /* width: fit-content;
+  */
+}
 
-a.underline:after {
+a.underline:after
+{
   display: block;
   background-color: #eb8600;
   width: 100%;
@@ -70,11 +86,10 @@ h3
   font-family: "PT Serif";
 }
 
-
-
-h3 span {
-    letter-spacing: -2px;
-    padding: 0 1rem;
+h3 span
+{
+  letter-spacing: -2px;
+  padding: 0 1rem;
 }
 
 .final

@@ -4,204 +4,225 @@
 @import url("https://fonts.googleapis.com/css2?family=Croissant+One&display=swap");*/
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;562;600;700&display=swap");
 /*@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");*/
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 main
 {
-display: flex;
-flex-direction: column;
-justify-content: center;
-height: 100%;
-margin: 60px;
-transform: scale(1);
-opacity: 1;
-transition: all 1s;
-background-color:#DEE6EB  ;
-padding: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+	margin: 60px;
+	transform: scale(1);
+	opacity: 1;
+	transition: all 1s;
+	background-color:#DEE6EB  ;
+	padding: 80px;
+	box-shadow: 1px 1px 10px 0px rgba(204, 204, 204, 0.9);
 }
+
+.first
+{
+	text-align: center;
+	padding-top: 30px;
+	font-size :20px;
+font-family: "Montserrat"}
 
 .sl
 {
-position: relative;
-overflow: hidden;
-text-align: center;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
 }
 
-
 .sl:before, .sl:after
-{position: absolute;
-top: 50%;
-overflow: hidden;
-width: 40%;
-height: 4px;
-content: '\a0';
-background-color: #392de2;
-margin-left: 90px;
-
-}  
+{
+	position: absolute;
+	top: 50%;
+	overflow: hidden;
+	width: 40%;
+	height: 4px;
+	content: '\a0';
+	background-color: #392de2;
+	margin-left: 90px;
+}
 
 .sl:before
 {
-margin-left: -50%;
+	margin-left: -50%;
 }
-
-
 
 .traits
 {
-position: relative;
-overflow: hidden;
-text-align: center;
-font-family: "Dancing Script";
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	font-family: "Dancing Script";
 }
 
 .traits:before, .traits:after
 {
-position: absolute;
-top: 50%;
-overflow: hidden;
-width: 50%;
-height: 4px;
-content: '\a0';
-background-color: #027CC7 ;
-margin-left: 90px;
+	position: absolute;
+	top: 50%;
+	overflow: hidden;
+	width: 50%;
+	height: 4px;
+	content: '\a0';
+	background-color: #027CC7 ;
+	margin-left: 90px;
 }
 
 .traits:before
 {
-margin-left: -60%;
+	margin-left: -60%;
 }
 
 .trait
 {
-position: relative;
-overflow: hidden;
-text-align: center;
-font-family: "Dancing Script";
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	font-family: "Dancing Script";
 }
 
 .trait:before, .trait:after
 {
-position: absolute;
-top: 50%;
-overflow: hidden;
-width: 50%;
-height: 4px;
-content: '\a0';
-background-color: #52BDFF;
-margin-left: 90px;
+	position: absolute;
+	top: 50%;
+	overflow: hidden;
+	width: 50%;
+	height: 4px;
+	content: '\a0';
+	background-color: #52BDFF;
+	margin-left: 90px;
 }
 
 .trait:before
 {
-margin-left: -60%;
+	margin-left: -60%;
 }
 
-
 .note
-{font-family: "Dancing Script";background: #392de2;background: -moz-linear-gradient(left, #392de2 0%, #7db9e8 100%);background: -webkit-linear-gradient(left, #392de2 0%,#7db9e8 100%);background: linear-gradient(to right, #392de2 0%,#7db9e8 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#392de2', endColorstr='#7db9e8',GradientType=1 );font-size: 40px;background-color: #fff5fe;-webkit-background-clip: text;-webkit-text-fill-color: transparent;width: fit-content;margin: auto;}
+{
+	font-family: "Dancing Script";
+	background: #392de2;
+	background: -moz-linear-gradient(left, #392de2 0%, #7db9e8 100%);
+	background: -webkit-linear-gradient(left, #392de2 0%,#7db9e8 100%);
+	background: linear-gradient(to right, #392de2 0%,#7db9e8 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#392de2', endColorstr='#7db9e8',GradientType=1 );
+	font-size: 40px;
+	background-color: #fff5fe;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	width: fit-content;
+	margin: auto;
+}
 
 a
 {
-color: #c77412;
+	color: #c77412;
 }
 
 .dish
 {
-display: flex;
-justify-content: space-between;
-font-family: "Dancing Script";
+	display: flex;
+	justify-content: space-between;
+	font-family: "Dancing Script";
 }
 
 ul
 {
-list-style: none;
+	list-style: none;
 }
-a.underline
-{/* display: block; *//* width: fit-content; */}
 
-a.underline:after {
-  display: block;
-  background-color: #eb8600;
-  width: 100%;
-  height: 3px;
-  content: " ";
+a.underline
+{
+	/* display: block;
+	*/
+	/* width: fit-content;
+	*/
+}
+
+a.underline:after
+{
+	display: block;
+	background-color: #eb8600;
+	width: 100%;
+	height: 3px;
+	content: " ";
 }
 
 h3
 {
-position: relative;
-overflow: hidden;
-text-align: center;
-font-family: "Dancing Script";
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	font-family: "Dancing Script";
 }
-
-
 
 .prix
 {
-text-align: right;
+	text-align: right;
 }
 
 .tarif
 {
-text-align: right;
+	text-align: right;
 }
 
 .total
 {
-text-align: right;
+	text-align: right;
 }
 
 h4
 {
-position: relative;
-overflow: hidden;
-text-align: center;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
 }
 
 h4:before, h4:after
 {
-position: absolute;
-top: 51%;
-overflow: hidden;
-width: 50%;
-height: 4px;
-content: '\a0';
-background-color: #81C784;
+	position: absolute;
+	top: 51%;
+	overflow: hidden;
+	width: 50%;
+	height: 4px;
+	content: '\a0';
+	background-color: #81C784;
 }
 
 h4:before
 {
-margin-left: -50%;
+	margin-left: -50%;
 }
 
 h4
 {
-position: relative;
-overflow: hidden;
-text-align: center;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
 }
-
 
 .terminer
 {
-position: relative;
-overflow: hidden;
-text-align: center;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
 }
 
 .terminer:before, .terminer:after
 {
-position: absolute;
-top: 51%;
-overflow: hidden;
-width: 50%;
-height: 4px;
-content: '\a0';
-background-color: #0091EA;
+	position: absolute;
+	top: 51%;
+	overflow: hidden;
+	width: 50%;
+	height: 4px;
+	content: '\a0';
+	background-color: #0091EA;
 }
 
 .terminer:before
 {
-margin-left: -50%;
+	margin-left: -50%;
 }

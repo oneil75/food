@@ -1,6 +1,7 @@
 @import url("allpages.css");
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 main
 {
   display: flex;
@@ -13,17 +14,18 @@ main
   transition: all 1s;
   background-color: #fcdfdb;
   padding: 80px;
+  box-shadow: 1px 1px 10px 0px rgba(204, 204, 204, 0.9);
+  background-color: #fcdfdb;
+  font-family: "Kaushan Script";
+  border-color: #fcdfdb;
 }
 
 .first
 {
- text-align: center;
- padding-top: 30px;
- font-size :20px;
- font-family: "Montserrat"
-}
-
-
+  text-align: center;
+  padding-top: 30px;
+  font-size :20px;
+font-family: "Montserrat"}
 
 a
 {
@@ -63,29 +65,51 @@ h3
 
 h3:after
 {
-  width: 50%;height: 2px;content: '\a0';background-color: #cec0cd;display: block;width: 0;position: relative;left: 30%;transition: width 1s;}
-
-h3:hover:after{
- width: 40%;
+  width: 50%;
+  height: 2px;
+  content: '\a0';
+  background-color: #cec0cd;
+  display: block;
+  width: 0;
+  position: relative;
+  left: 30%;
+  transition: width 1s;
 }
 
-h3 span {
-    letter-spacing: -2px;
-    padding: 0 2rem;
-    
+h3:hover:after
+{
+  width: 40%;
 }
 
-.black{
-  
+h3 span
+{
+  letter-spacing: -2px;
+  padding: 0 2rem;
+}
+
+.black
+{
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.black:before, .black:after
+{
+  position: absolute;
+  top: 50%;
+  overflow: hidden;
+  width: 40%;
+  height: 5px;
+  content: '\a0';
   background-color: black;
-  background: linear-gradient(to right, #0a0a0a 0%,#060606 100%);
-  -webkit-background-clip: text;
-  margin: 0 auto;
-  background-size: 65px;
-
-
+  margin-left: 90px;
 }
 
+.black:before
+{
+  margin-left: -50%;
+}
 
 .final
 {
@@ -109,17 +133,17 @@ h3 span {
   font-size: 30px;
 }
 
-i {
-    font-size: 35px;
-    background: #e50000;
-    background: -moz-linear-gradient(left, #e50000 0%, #ff7400 100%);
-    background: -webkit-linear-gradient(left, #e50000 0%,#ff7400 100%);
-    background: linear-gradient(to right, #e50000 0%,#ff7400 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e50000', endColorstr='#ff7400',GradientType=1 );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+i
+{
+  font-size: 35px;
+  background: #e50000;
+  background: -moz-linear-gradient(left, #e50000 0%, #ff7400 100%);
+  background: -webkit-linear-gradient(left, #e50000 0%,#ff7400 100%);
+  background: linear-gradient(to right, #e50000 0%,#ff7400 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e50000', endColorstr='#ff7400',GradientType=1 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-
 
 .dish
 {
