@@ -113,29 +113,24 @@ h3
 {
   color:#fdcb46;
   margin: .2rem auto;
-  text-align: left;
+  font-family: "Pangolin";
+ text-align: left;
 }
 
-.soon {
-    border: 2px solid #009688;
-    background-color: #009688;
-    font-family: "Asap";
-    margin: 2em;
-    width: 10em;
-    height: 1.8em;
-    color: #fdcb46;
-    font-size: 2em;
-    border-radius: 0.5em;
-    text-align: right;
-
+.soon
+{ border: 2px solid #009688;
+  background-color: #009688;
+  font-family: "Asap";
+  margin: 2em;
+  width: 10em;
+  height: 2em;
+  color: #fdcb46;
+  font-size: 2em;
+  border-radius: 0.5em;
+  
 }
 
-.soon h3:after
-{
-  content: "";
-  animation: soonAnimate 1s;
-  animation-iteration-count: infinite;
-}
+
 @keyframes soonAnimate
 {
   0%

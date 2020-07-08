@@ -34,8 +34,9 @@ overflow: hidden;
 width: 40%;
 height: 4px;
 content: '\a0';
-background-color: red;
+background-color: #392de2;
 margin-left: 90px;
+
 }  
 
 .sl:before
@@ -62,12 +63,12 @@ width: 50%;
 height: 4px;
 content: '\a0';
 background-color: #027CC7 ;
-margin-left: 40px;
+margin-left: 90px;
 }
 
 .traits:before
 {
-margin-left: -55%;
+margin-left: -60%;
 }
 
 .trait
@@ -87,12 +88,12 @@ width: 50%;
 height: 4px;
 content: '\a0';
 background-color: #52BDFF;
-margin-left: 40px;
+margin-left: 90px;
 }
 
 .trait:before
 {
-margin-left: -55%;
+margin-left: -60%;
 }
 
 

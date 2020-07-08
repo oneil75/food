@@ -137,3 +137,28 @@ h5
   text-decoration: none;
   font-size: 20px;
 }
+.ne
+{
+position: relative;
+overflow: hidden;
+text-align: center;
+}
+
+
+.ne:before, .ne:after
+{position: absolute;
+top: 50%;
+overflow: hidden;
+width: 40%;
+height: 4px;
+content: '\a0';
+background-color: #392de2;
+margin-left: 90px;
+
+}  
+
+.ne:before
+{
+margin-left: -50%;
+}
+
