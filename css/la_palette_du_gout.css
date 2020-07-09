@@ -18,19 +18,37 @@ main
   padding: 80px;
   box-shadow: 1px 1px 10px 0px rgba(204, 204, 204, 0.9);
 }
+
 .first
-{   text-align: center;
- padding-top: 30px;
- font-size :20px;
- font-family: "Montserrat"
+{
+  text-align: center;
+  padding-top: 30px;
+  font-size :20px;
+font-family: "Montserrat"}
+
+.note
+{
+  font-size: 50px;
+  font-family: "Kaushan Script";
+  background: #287c15;
+  background: -moz-linear-gradient(left,  #287c15 0%, #abdc28 100%);
+  background: -webkit-linear-gradient(left,  #287c15 0%,#abdc28 100%);
+  background: linear-gradient(to right,  #287c15 0%,#abdc28 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#287c15', endColorstr='#abdc28',GradientType=1 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: fit-content;
+  margin: auto;
 }
 
-.lddp_degrade{  
+.lddp_degrade
+{
   font-size: 50px;
 }
 
 a
-{  color: #c77412;
+{
+  color: #c77412;
 }
 
 .dish
@@ -51,23 +69,6 @@ h3
   overflow: hidden;
   text-align: center;
   font-family: "Kaushan Script";
-}
-
-h3:before, h3:after
-{
-  position: absolute;
-  top: 80%;
-  overflow: hidden;
-  
-  height: 2px;
-  content: '\a0';
-  background-color: #cec0cd;
-  margin-left: 40px;
-}
-
-h3:before
-{
-  margin-left: -55%;
 }
 
 .prix
@@ -106,7 +107,7 @@ h4:before, h4:after
 h4:before
 {
   margin-left: -50%;
- }
+}
 
 h4
 {
@@ -127,7 +128,7 @@ h4
   position: absolute;
   top: 51%;
   overflow: hidden;
-  width: 50%;
+  width: 40%;
   height: 4px;
   content: '\a0';
   background-color: #0091EA;
@@ -136,32 +137,34 @@ h4
 .terminer:before
 {
   margin-left: -50%;
- }
-
+}
 
 .lne
 {
-position: relative;
-overflow: hidden;
-text-align: center;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
 }
 
-
 .lne:before, .lne:after
-{position: absolute;
-top: 50%;
-overflow: hidden;
-width: 40%;
-height: 5px;
-content: '\a0';
-background-color: green;
-margin-left: 90px;
-
-}  
+{
+  position: absolute;
+  top: 50%;
+  overflow: hidden;
+  width: 35%;
+  height: 4px;
+  content: '\a0';
+  margin-left: 150px;
+  background: #287c15;
+  background: -moz-linear-gradient(left,  #287c15 0%, #abdc28 100%);
+  background: -webkit-linear-gradient(left,  #287c15 0%,#abdc28 100%);
+  background: linear-gradient(to right,  #287c15 0%,#abdc28 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#287c15', endColorstr='#abdc28',GradientType=1 );
+}
 
 .lne:before
 {
-margin-left: -50%;
+  margin-left: -50%;
 }
 
 

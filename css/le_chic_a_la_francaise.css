@@ -90,7 +90,38 @@ h3 span
 {
   letter-spacing: -2px;
   padding: 0 1rem;
+  width: 60px;
 }
+
+.degr
+{
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.degr:before, .degr:after
+{
+  position: absolute;
+  top: 50%;
+  overflow: hidden;
+  width: 35%;
+  height: 4px;
+  content: '\a0';
+  margin-left: 150px;
+  
+  background: #f4a930;
+  background: -moz-linear-gradient(left,  #f4a930 10%, #474fe0 100%);
+  background: -webkit-linear-gradient(left,  #f4a930 10%,#474fe0 100%);
+  background: linear-gradient(to right,  #f4a930 0%,#474fe0 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4a930', endColorstr='#474fe0',GradientType=1 ); 
+  
+}
+
+.degr:before
+{
+  margin-left: -50%;
+}
+
 
 .final
 {

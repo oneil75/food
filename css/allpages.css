@@ -24,8 +24,8 @@
 .calf_degrade
 {
   background: #f4a930;
-  background: -moz-linear-gradient(left,  #f4a930 0%, #474fe0 100%);
-  background: -webkit-linear-gradient(left,  #f4a930 0%,#474fe0 100%);
+  background: -moz-linear-gradient(left,  #f4a930 10%, #474fe0 100%);
+  background: -webkit-linear-gradient(left,  #f4a930 10%,#474fe0 100%);
   background: linear-gradient(to right,  #f4a930 0%,#474fe0 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4a930', endColorstr='#474fe0',GradientType=1 );
   font-family: "Croissant One";
