@@ -54,8 +54,8 @@ li
   color: red;
   font-size: 255%;
 }
-
-h3
+/*--------------------------------------------------------animations surlignement----------------------------------------------*/
+/*h3
 {
   position: relative;
   overflow: hidden;
@@ -87,37 +87,33 @@ h3 span
   padding: 0 2rem;
 }
 
+--------------------------------------------------------ligne cotes gauche et droit titre----------------------------------------------*/
 .black
 {
-  position: relative;
-  overflow: hidden;
-  text-align: center;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
+@media screen and (min-width: 768px){
 
 .black:before, .black:after
 {
-  position: absolute;
-  top: 50%;
-  overflow: hidden;
-  width: 40%;
-  height: 5px;
-  content: '\a0';
-  background-color: black;
-  margin-left: 90px;
+  content: '-----------------------------------'; 
+  color: black;
+  letter-spacing: -3px;
+  margin: 0 .5rem;
 }
-
-.black:before
-{
-  margin-left: -50%;
-}
-
+}  
 .final
 {
-  text-align: center;
+    align-items: center;
+  color: black;
+ /* text-align: center;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: auto;
+  margin: auto;*/
 }
 
 .finish

@@ -1,9 +1,7 @@
 @import url("allpages.css");
 @import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Devonshire&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Croissant+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;562;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+/*-----------------------------------------------------degrade titre------------------------------------------------*/
 .lne
 {
   box-shadow: 1px 1px 10px 0px rgba(204, 204, 204, 0.9);
@@ -47,7 +45,7 @@ main
   max-width: 600px;
   margin: auto;
 }
-
+/*-----------------------------------------------------couleur texte menu------------------------------------------------*/
 .menu1
 {
   color: black;
@@ -67,7 +65,7 @@ main
 {
   color: #05C247;
 }
-
+/*-----------------------------------------------------degrade de couleur------------------------------------------------*/
 .ddp_degrade
 {
   background: -moz-linear-gradient(left, #392de2 0%, #7db9e8 100%);
@@ -79,7 +77,7 @@ main
   -webkit-text-fill-color: transparent;
   width: fit-content;
 }
-
+/*-----------------------------------------------------cartedesmenutransitions------------------------------------------------*/
 article
 {
   width: 210px;
@@ -101,7 +99,7 @@ article a
 article a:hover
 {
   transform: scale(1.2);
-  opacity: .7;
+  opacity: 0.5;
 }
 
 h3
@@ -111,12 +109,12 @@ h3
   font-family: "Pangolin";
   text-align: left;
 }
-
+/*-----------------------------------------------------bas de page------------------------------------------------*/
 .soon
 {
   border: 2px solid #009688;
   background-color: #009688;
-  font-family: "Asap";
+ ¶ font-family: "Asap";
   margin: 2em;
   width: 10em;
   color: #fdcb46;
@@ -124,15 +122,14 @@ h3
   border-radius: 0.5em;
   flex-direction: row;
 }
-
+/*-----------------------------------------------------animationsprochainement------------------------------------------------*/
 .soon span
 {
   color: transparent;
-  animation: soonAnimate 3s;
+  animation: soonAnimate 1s;
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
 }
-
 .soon span:nth-child(1)
 {
   animation-delay: 100ms;
@@ -152,7 +149,7 @@ h3
 {
   0%
   {
-    color: transparent;
+     color: transparent;
   }
 
   30%
@@ -166,11 +163,11 @@ h3
   }
 
   100%
-  {
-    color: transparent;
+  { 
+    color: transparent; 
   }
 }
-
+/*-----------------------------------------------------responsive------------------------------------------------*/
 @media only screen and (min-width: 375px)
 {
   .menus__zoom
@@ -183,77 +180,5 @@ h3
   .details
   {
     height: 673.6px;
-  }
-}
-
-@media only screen and (min-width: 560px)
-{
-  section
-  {
-    align-self: center;
-  }
-
-  .details
-  {
-    width: 595px;
-    height: 842px;
-    font-size: 140%;
-  }
-
-  .details span
-  {
-    font-size: 80%;
-  }
-
-  .menus__zoom
-  {
-    width: 238px;
-    height: 336.8px;
-  }
-}
-
-@media only screen and (min-width: 768px)
-{
-  .details
-  {
-    width: 595px;
-    height: 842px;
-    font-size: 140%;
-  }
-
-  .underline
-  {
-    margin-top: -0.5em;
-  }
-}
-
-@media only screen and (min-width: 1024px)
-{
-  section
-  {
-    align-self: center;
-  }
-
-  .details
-  {
-    width: 892.5px;
-    height: 1263px;
-    font-size: 210%;
-  }
-
-  .menus__zoom
-  {
-    width: 297.5px;
-    height: 421px;
-    font-size: 150%;
-  }
-}
-
-@media only screen and (min-width: 1240px)
-{
-  section
-  {
-    align-self: center;
-    width: 100%;
   }
 }

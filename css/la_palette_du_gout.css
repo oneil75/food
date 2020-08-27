@@ -95,13 +95,13 @@ h4
 
 h4:before, h4:after
 {
-  position: absolute;
+  /*position: absolute;
   top: 51%;
   overflow: hidden;
   width: 50%;
   height: 4px;
   content: '\a0';
-  background-color: #81C784;
+  background-color: #81C784;*/
 }
 
 h4:before
@@ -110,10 +110,10 @@ h4:before
 }
 
 h4
-{
+{/*
   position: relative;
   overflow: hidden;
-  text-align: center;
+  text-align: center;*/
 }
 
 .terminer
@@ -141,13 +141,13 @@ h4
 
 .lne
 {
-  position: relative;
-  overflow: hidden;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
+@media screen and (min-width: 768px){
 .lne:before, .lne:after
-{
+{/*
   position: absolute;
   top: 50%;
   overflow: hidden;
@@ -160,11 +160,38 @@ h4
   background: -webkit-linear-gradient(left,  #287c15 0%,#abdc28 100%);
   background: linear-gradient(to right,  #287c15 0%,#abdc28 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#287c15', endColorstr='#abdc28',GradientType=1 );
+}*/content: '----------------------------------------------------------'; 
+  background: #287c15;
+  background: -moz-linear-gradient(left,  #287c15 0%, #abdc28 100%);
+  background: -webkit-linear-gradient(left,  #287c15 0%,#abdc28 100%);
+  background: linear-gradient(to right,  #287c15 0%,#abdc28 100%);
+  /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4a930', endColorstr='#474fe0',GradientType=1 ); */
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -3px;
+  margin: 0 .5rem;
 }
-
 .lne:before
 {
-  margin-left: -50%;
+  background: #287c15;
+  background: -moz-linear-gradient(right,  #287c15 0%, #abdc28 100%);
+  background: -webkit-linear-gradient(right,  #287c15 0%,#abdc28 100%);
+  background: linear-gradient(to right,  #287c15 0%,#abdc28 100%);
+  /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4a930', endColorstr='#474fe0',GradientType=1 ); */
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ } 
+.lne:after
+{
+ background: #287c15;
+  background: -moz-linear-gradient(left,  #287c15 0%, #abdc28 100%);
+  background: -webkit-linear-gradient(left,  #287c15 0%,#abdc28 100%);
+  background: linear-gradient(to left,  #287c15 0%,#abdc28 100%);
+  /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4a930', endColorstr='#474fe0',GradientType=1 ); */
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+
 }
 
 

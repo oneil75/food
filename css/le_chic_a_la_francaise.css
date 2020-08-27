@@ -9,7 +9,6 @@ main
   flex-direction: column;
   justify-content: center;
   height: 100%;
-  margin: 60px;
   transform: scale(1);
   opacity: 1;
   transition: all 1s;
@@ -17,6 +16,7 @@ main
   padding: 80px;
   box-shadow: 1px 1px 10px 0px rgba(204, 204, 204, 0.9);
 }
+
 
 .first
 {
@@ -95,34 +95,48 @@ h3 span
 
 .degr
 {
-  position: relative;
-  overflow: hidden;
-  text-align: center;
-}
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+@media screen and (min-width: 768px){
+
 .degr:before, .degr:after
 {
-  position: absolute;
-  top: 50%;
-  overflow: hidden;
-  width: 35%;
-  height: 4px;
-  content: '\a0';
-  margin-left: 150px;
-  
+  content: '----------------------------------------------------------'; 
   background: #f4a930;
   background: -moz-linear-gradient(left,  #f4a930 10%, #474fe0 100%);
   background: -webkit-linear-gradient(left,  #f4a930 10%,#474fe0 100%);
   background: linear-gradient(to right,  #f4a930 0%,#474fe0 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4a930', endColorstr='#474fe0',GradientType=1 ); 
-  
+  /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4a930', endColorstr='#474fe0',GradientType=1 ); */
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -3px;
+  margin: 0 .5rem;
 }
 
 .degr:before
-{
-  margin-left: -50%;
+{ background: #f4a930;
+  background: -moz-linear-gradient(right,  #f4a930 10%, #474fe0 100%);
+  background: -webkit-linear-gradient(right,  #f4a930 10%,#474fe0 100%);
+  background: linear-gradient(to right,  #f4a930 0%,#474fe0 100%);
+  /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4a930', endColorstr='#474fe0',GradientType=1 ); */
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.degr:after
+{ background: #f4a930;
+  background: -moz-linear-gradient(left,  #f4a930 10%, #474fe0 100%);
+  background: -webkit-linear-gradient(left,  #f4a930 10%,#474fe0 100%);
+  background: linear-gradient(to left,  #f4a930 0%,#474fe0 100%);
+  /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4a930', endColorstr='#474fe0',GradientType=1 ); */
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-
+}
 .final
 {
   align-items: center;

@@ -82,6 +82,16 @@ footer
   bottom: 0;
   height: 3rem;
   width: 100%;
+  width: 100%;
+  }
+
+/*---------------------------------------------------animations bouton----------------------------------------------*/
+
+.btns__btn a
+{
+  color:#fdcb46;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 h3:after
@@ -93,20 +103,13 @@ h3:after
   display: block;
   width: 0;
   position: relative;
-  left: 30%;
+  /*left: 30%;*/
   transition: width 1s;
 }
 
+
 h3:hover:after
 {
-  width: 40%;
-}
-
-.btns__btn a
-{
-  color:#fdcb46;
-  text-decoration: none;
-  font-size: 20px;
 }
 
 .btns__btn:hover
@@ -171,4 +174,14 @@ h3:hover:after
   {
     transform: translate(1px, -1px) rotate(-1deg);
   }
+}
+
+main{
+  padding:10px !important;
+}
+@media screen AND (min-width:768px) {
+    main {
+        margin: 60px;
+        padding:80px;
+    }
 }
